@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape>
+			<solid android:color="#000000"/>
+		</shape>
+	</item>
+	
+	<item android:bottom="1dp">
+		<shape>
+			<solid android:color="#ffffff"/>
+		</shape>
+	</item>
+</layer-list>
+<!-- From: file:/D:/Development/GitHub/marf-projects/Estimote/Android/EstimoteIndoorAndroid/app/src/main/res/layout/tablerow_border.xml -->

@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:11
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:3
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:12:3
+	android:name
+		ADDED from AndroidManifest.xml:12:20
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:13:3
+	android:name
+		ADDED from AndroidManifest.xml:13:20
+uses-feature#android.hardware.bluetooth_le
+ADDED from AndroidManifest.xml:16:3
+	android:required
+		ADDED from AndroidManifest.xml:16:62
+	android:name
+		ADDED from AndroidManifest.xml:16:17
+application
+ADDED from AndroidManifest.xml:18:3
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:19:7
+	android:theme
+		ADDED from AndroidManifest.xml:20:7
+activity#nl.mprog.estimoteindoorandroid.HomeActivity
+ADDED from AndroidManifest.xml:22:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:24:9
+	android:name
+		ADDED from AndroidManifest.xml:23:9
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:25:7
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:26:9
+	android:name
+		ADDED from AndroidManifest.xml:26:17
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:27:9
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+activity#nl.mprog.estimoteindoorandroid.BeaconListActivity
+ADDED from AndroidManifest.xml:31:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:34:9
+	android:label
+		ADDED from AndroidManifest.xml:33:9
+	android:name
+		ADDED from AndroidManifest.xml:32:9
+activity#nl.mprog.estimoteindoorandroid.MapPosActivity
+ADDED from AndroidManifest.xml:36:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:39:9
+	android:label
+		ADDED from AndroidManifest.xml:38:9
+	android:name
+		ADDED from AndroidManifest.xml:37:9
+activity#nl.mprog.estimoteindoorandroid.SingleBeaconActivity
+ADDED from AndroidManifest.xml:41:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:43:9
+	android:name
+		ADDED from AndroidManifest.xml:42:9
+service#com.estimote.sdk.service.BeaconService
+ADDED from AndroidManifest.xml:46:5
+	android:exported
+		ADDED from AndroidManifest.xml:47:14
+	android:name
+		ADDED from AndroidManifest.xml:46:14
